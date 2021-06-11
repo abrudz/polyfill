@@ -8,7 +8,7 @@
 | `A`             | `∧`          | Sort-ascending                                               |
 | `F`             | `⫽`          | [Replicate ("Filter") First](https://aplwiki.com/wiki/Replicate) as pure function |
 | `E`             | `⑊`          | [Expand First](https://aplwiki.com/wiki/Expand) as pure function |
-| `R`             | `⍴`          | [Reshape](https://apl.wiki/Reshape) allowing `¯0.5` to auto-shape axis and chop excess, `¯1` to require exact fit, `¯1.5` to recycle elements |
+| `R`             | `⍴`          | [Reshape](https://apl.wiki/Reshape) allowing `¯1` to auto-shape axis and chop excess, `¯2` to require exact fit, `¯3` to recycle elements, `¯4` to use fill elements |
 | `S`             | `$`          | String interpolation using  `${apl expression}`              |
 | `ë`             | `⸚`          | `¨` which, if any argument is empty, doesn't apply its operand but rather returns an appropriately shaped no-prototype array |
 | `Ö`             | `⍥`          | Depth: apply left operand at leaves of depth no greater than right-operand, or, if right operand is negative, no more than that many levels from the argument's max depth |
